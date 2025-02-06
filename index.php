@@ -22,27 +22,43 @@
 // }
 
 
+// $date = date("l");
+// echo $date;
+
+
+// switch($date) {
+//     case "Monday":
+//         echo "I hate Mondays";
+//         break;
+//     case "Tuesday":
+//         echo "I hate Tuesday";
+//         break;
+//     case "Wednesday":
+//         echo "I hate Wednesdays";
+//         break;
+//     case "Thursday":
+//         echo "I hate Thursdays";
+//         break;
+//     case "Friday":
+//         echo "I LOVE Fridays";
+//         break;       
+// }
+
 $date = date("l");
-echo $date;
+$date = "wednesday";
 
-
-switch($date) {
-    case "Monday":
-        echo "I hate Mondays";
+switch($date){
+    case "monday":
+        echo "I hate mondays";
         break;
-    case "Tuesday":
-        echo "I hate Tuesday";
+    case "tuesday":
+        echo "I like tuesdays";
         break;
-    case "Wednesday":
-        echo "I hate Wednesdays";
+    case "wednesday":
+        echo "I kinda like wednesday";
         break;
-    case "Thursday":
-        echo "I hate Thursdays";
-        break;
-    case "Friday":
-        echo "I LOVE Fridays";
-        break;
-        
+    
 }
+
 
 ?>
